@@ -17,12 +17,18 @@ var twoSum = function(nums, target) {
 /**
 map->data st-> saves data in key value pair
 .set()->set key value
-.get()->find value by key
+.get()->find and return value linked with key
 .has()->check if key exist
-[2,7,11,15]
-9
-diff->9-2
+nums = [2,7,11,15], target = 9
+
+map=[]
+i=0
+diff=9-2=7
+nums[i]=2
 [2<->0]
-diff->9-7
-map has 2?->yes
+m
+map=[2 0]
+i=1
+diff=9-7=2
+return[0 , 1]
  */
